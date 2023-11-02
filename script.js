@@ -8,8 +8,8 @@ function staticLoadPlaces() {
         {
             name: 'Stego',
             location: {
-                lat: 35.147624,
-                lng: 129.132499,
+                lat: 35.146632,
+                lng: 129.133397,
             }
         },
     ];
@@ -23,7 +23,7 @@ function renderPlaces(places) {
         let longitude = place.location.lng;
 
         let model = document.createElement('a-entity');
-        model.setAttribute('gps-entity-place', `latitude: ${35.147624}; longitude: ${129.132499};`);
+        model.setAttribute('gps-entity-place', `latitude: ${35.146632}; longitude: ${129.133397};`);
         model.setAttribute('gltf-model', './assets/stego.gltf');
         model.setAttribute('rotation', '0 15 0');
         model.setAttribute('animation-mixer', '');
