@@ -25,7 +25,7 @@ function renderPlaces(places) {
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${35.146632}; longitude: ${129.133397};`);
         model.setAttribute('gltf-model', './assets/stego.gltf');
-        model.setAttribute('rotation', '0 15 0');
+        model.setAttribute('rotation', '0 65 0');
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', '1.2 1.2 1.2');
 
